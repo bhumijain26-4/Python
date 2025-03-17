@@ -1,0 +1,20 @@
+1. Introduction to Python and its Features (simple, high-level, interpreted language).
+-> Python is high-level interpreted programming language known for its simplicity.
+-> It was created by Guido Van Rossum and first released in 1991.
+-> It is the most popular programming language.
+-> It has large number of built-in libraries.
+-> It is platform independent,meaning that can run on various operating systems.
+
+    
+2. History and evolution of Python.
+-> Python is a high-level interpreted programming language which was created by Guido Van Rossum in 1991.
+-> The motivation for creating Python was to design a language that was easy to read and write for solving complex tasks. 
+-> Guido named the language "Python" because he was inspired by the tv show Monthy Python and wanted to give the name short and sweet which was quite unique also.
+-> So this is the History and evolution of Python.
+
+
+3. Advantages of using Python over other programming languages.
+-> It is easy to learn and use.
+-> It is platform independent.
+-> It is versatile which can be used for web development,game development,AI and ML.
+-> It is free and open source language.
