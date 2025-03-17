@@ -1,0 +1,17 @@
+(1) Understanding how to access and manipulate strings.
+
+(2) Basic operations: concatenation, repetition,string methods(upper(), lower(), etc.).
+String concatenation is the process of joining two or more strings together.
+String repetition is used to repeat the string multiple times using * operator.
+String methods like string upper() is used to convert the string to Uppercase.
+String lower() is used to convert the string to Lowercase.
+String capitalize() is used to convert the string's first character to uppercase and rest of the characters in lowercase.
+String replace() is used to replace the old string with the new one.
+String count() is used to count the number of occurences of a substring.
+
+
+(3) String slicing.
+String slicing is used to extract substring from the string.
+It's syntax is : start:end 
+It allows positive as well as negative indexing.
+It can be accessed using index values also.
