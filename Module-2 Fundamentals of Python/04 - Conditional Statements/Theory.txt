@@ -1,0 +1,9 @@
+Introduction to conditionalstatements: if, else, elif.
+Nested if-else conditions.
+
+Conditional Statements are used to make decisions and execute specific block of code based on True condition.
+(1) If statement : If is used to check the true statement.
+(2) Else statement : Else is used when the if condition is false
+(3) elif statement : It is the condition which is used after if previous if condition is false.
+(4) nested if else : It is used to give condition inside another if else condition.
+
