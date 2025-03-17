@@ -1,0 +1,13 @@
+(1) Introduction to for and while loops.
+For loop :
+It is used to iterate over the sequence like a list,tuple,string etc and execute the block of code of each item in the sequence.
+It is known as Entry Controlled Loop.
+
+While loop:
+It runs as long as the condition is true.It checks the condition before executing.
+It is known as Entry Controlled Loop.
+
+
+(2) How loops work in Python?
+Loops in python work by executing a block of code repeatedly based on the condition.
+
