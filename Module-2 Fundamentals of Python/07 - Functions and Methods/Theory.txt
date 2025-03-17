@@ -1,0 +1,27 @@
+(1) Defining and calling functions in Python.
+A function is defined using def keyword followed by the function name and parenthesis {}.
+The function body contains code of block which is to be executed followed by arguments of it.
+And at last Calling of that function.
+
+(2) Scope of variables in Python.
+There are two types of scope :
+1. Local scope : Variables which are declared inside a function can be called within that function.
+2. Global scope : Variables which are declared outside the function can be accessible anywhere.
+
+
+(3) Built-in methods for strings, lists, etc
+
+String is the sequence of characters which is denoted by single ('') and double quotes ("").
+Here are some built-in methods for string:
+str.upper()
+str.lower()
+str.capitalize()
+str.title()
+str.replace()
+str.split()
+
+List is the collection of items which are ordered and mutable.They are denoted by square brackets [].
+Here are some built-in methods for list:
+my_list = [1,2,3,'apple']
+my_list.append(4)
+my_list.pop(    )
