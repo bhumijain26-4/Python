@@ -1,0 +1,25 @@
+
+
+(1) Understanding data types: integers, floats,strings, lists, tuples, dictionaries,sets.
+
+Datatypes :
+(1) Integer : Whole numbers (eg: 3 , -9)
+(2) Float : Numbers with decimal values (eg: 45.6 , -90.56)
+(3) Strings : Text written within single or double quotes (eg: 'Python' "programming")
+(4) List : Ordered and mutable collection of items (eg: [1,2,'apple'] )
+(5) Tuples : Ordered and immutable collection of items (eg: (1,2,'apple) )
+(6) Dictionaries : key-value pairs (eg: {'name': 'ABC' , 'age' : 30} )
+(7) Sets : unordered unique collection of items (eg: {1,2,3} )
+
+(2) Python variables and memory allocation.
+Variables and memory allocation :
+x = 10     
+10 is allocated to variable x is memory allocation
+memory allocation is used to allocate variable to a specific memory which can't be used again with same variable.
+
+(3) Python operators: arithmetic, comparison, logical, bitwise
+Operators :
+(1) Arithmetic : + , - , / , * , %  
+(2) Comparison : ==(equalto) !=(not equalto) >(greater than) <(less than) >=(greater than equalto) <=(less than equalto)
+(3) logical : and(&) or(|) not(!)
+(4) Bitwise : and(&) or(|) xor(^) not(!)
