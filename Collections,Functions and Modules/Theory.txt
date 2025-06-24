@@ -1,0 +1,217 @@
+1.Indexing in lists (positive and negative indexing).
+-> Positive indexing starts at 0 and negative indexing starts at -1.
+By indexing we can use string slicing for divide the string into two parts for better and easy understanding.
+By negative indexing the string is reversed and we can have the word we are searching for.
+Positive indexing remains as it is but can be divide into two parts.
+
+
+2.Slicing a list: accessing a range of elements.
+-> String slicing is used in 2 ways : positive and negative indexing.
+Positive indexing starts at 0 and negative indexing starts at -1.
+It's syntax is : list[start:stop:step]
+start means beginning of index.
+stop means end of index.
+step means till how many steps it shold work.
+
+
+3.Common list operations: concatenation, repetition.
+-> Concatenation means combination of two lists into a single list.
+It's symbol is +
+eg : a=["python] 
+     b=["programming]
+      print(a+b)
+
+->Repetition means repeats a list n number of times.
+It is denoted by *
+eg : a = [3]
+     b = 4
+     print(a*b) #here 3 will print 4 times.
+
+
+4.Understanding list methods like append(), insert(), remove(), pop()
+-> Append is used to add elements at the end of the list.
+syntax:list.append(value)
+->Insert is used to insert element.
+syntax:list.insert(value)
+->Remove is used to remove the first element which is repeating.
+syntax:list.remove(value)
+-> Pop is used to remove the element as per index or by default it removes the last element.
+syntax:list.pop([2])
+
+
+5.Sorting and reversing a list using sort(), sorted(), and reverse().
+-> Sort means it makes changes in the original list and returns none.
+syntax:list.sort()
+->Sorted means it returns the new list without changing original one.
+->Reverse is used to reverse the list's place and returns it.
+syntax:list.reverse()
+
+
+6.Basic list manipulations: addition, deletion, updating, and slicing.
+-> For addition : append,insert
+l1 = [12,67,45]
+l1.append(60)
+print(l1)
+
+l1 = [12,3,55]
+l1.insert(40)
+print(l1)
+
+-> For Deletion : remove,pop,clear
+list = [23,44,55,65,80]
+list.remove(44)
+print(list)
+
+list = [23,44,55,65,80]
+list.pop(4)            It access via index
+print(list)
+
+list = [23,44,55,65,80]
+list.clear()            It deletes all elements and returns none
+print(list)
+
+
+7.Creating and accessing elements in a tuple.
+-> t1 = (17,26,89,"Python",True,45.67,[33,90])
+print(t1)
+Accessing of elements in a tuple using slicing:
+print(t1[::-1])     For reverse
+print(t1[2:5])      begin from 2nd index and ends at 5th index
+print(t1[::2])      it will skip 2 values and print
+
+
+8.Basic operations with tuples: concatenation, repetition, membership.
+-> Concatenation :
+t1 = ("Python")
+t2 = ("programming")
+print(t1+t2)
+
+Repetition :
+t = (1,2,3)
+print(t*3)           It repeats tuple 3 times
+
+Membership :
+fruits = ('apple','banana','orange')
+result = 'banana' in fruits         # True
+result1 = 'mango' not in fruits     # True
+print(result)
+print(result1)
+
+
+9.Accessing tuple elements using positive and negative indexing.
+-> Positive indexing starts from 0 and negative indexing starts from -1.
+
+positive indexing :
+t = (12,44,78,90.33,22,65)
+print(t[0])             # 12
+print(t[4])             # 22
+
+negative indexing :
+print(t[-1])           # 65
+print(t[-3])           # 90.33
+
+
+10.Slicing a tuple to access ranges of elements.
+-> slicing syntax : [start:stop:step]
+
+t = (34,22,12,78,90,65)
+print(t[1:4])              # 22,12,78
+print(t[::-1])             # reverse
+print(t[::2])              # 34,12,90
+
+
+11.Introduction to dictionaries: key-value pairs.
+-> A Dictionary is like a book where each name has value and pairs.It is immutable.
+eg : 
+student = {
+     "name" : "Sanya",
+     "age" : 20,
+     "gender" : "Female",
+     "city" : "Surat",
+     "marks" : [40,60]
+}
+print(student)
+
+
+12. Dictionary methods like keys(), values(), and items().
+keys : Returns all the keys.
+values : Returns all the values.
+items : Returns all key and values in the tuple.
+
+dict = {
+     "subject" : "Java",
+     "course" : "Backend",
+     "year"  :   3,
+     "marks" :  85
+}
+print(dict)
+print(dict.keys())
+print(dict.values())
+print(dict.items()) 
+
+
+13.Defining functions in Python.
+-> Defining of function is done using def keyword.
+syntax :
+def function_name(parameters/arguments):
+     code
+     return value
+
+eg : 
+def add(x,y):
+     return x+y
+
+
+14.Anonymous functions (lambda functions)
+-> A lambda function is a small function declared with the lambda keyword instead of def.It is use for lightweight function or inline function or to perform small operations.
+syntax : lambda arguments : expression
+eg :
+square = lambda x : x * x
+print(square(5))
+
+add = lambda x,y:x+y
+print(add(10,20))
+
+
+15.Different types of functions: with/without parameters, with/without return values.
+-> A function is a reusable block of code that is used to perform specific task.
+There are 4 types of functions :
+1.with parameters,with return type
+     def add(a,b):
+          print(a+b)
+2.without parameters,with return type
+     def num():
+          return 20
+3.with parameters,without return type
+     def add(a,b):
+          print(a+b)
+4.without parameters,without return type
+     def greet():
+          print("hello!It's python")
+
+
+16.Introduction to Python modules and importing modules.
+-> A module is a .py file containing python code,functions,classes and variables.
+For importing module use import module_name to bring into the code
+eg : 
+import mymodule
+mymodule.greeting("Good morning!")
+
+
+17.Standard library modules: math, random.
+-> math module is used for perfoming mathematical operations like cos,sqrt,sin,factorial.
+eg : import math
+     print(math.sqrt(144))    
+     print(math.factorial(5))
+
+random module is used for generating random numbers prediction.
+random.random -> for random float values.
+random.randint -> for random integer values.
+random.choice -> for random element.
+eg : 
+import random
+print(random.random())
+print(random.randint(1,6))
+subject = ["apple","banana","mango","cherry"]
+print(random.choice(subject))
+
