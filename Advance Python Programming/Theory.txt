@@ -1,0 +1,128 @@
+1. Introduction to the print() function in Python.
+--> Print is an inbuilt function used to print appropriate msg on the console screen.
+syntax : print("msg")
+eg : print("Welcome to Python Programming")
+
+
+2. Formatting outputs using f-strings and format()
+-->f-string() is known as Formatting string.We use f-string() to display our code into readable and powerful way.By using f-string() mixed data can be displayed().
+for eg : if i have data like name = "Bhumi"
+                             age = "20"
+so iss data ko display krne k liye we use f-string() 
+It is displayed as : print("My name is:"{name},"I am":{age} "years old.")
+
+3.Using the input() function to read user input from the keyboard.
+--> For taking input we have another inbuilt function which is input().by using it we can take input from the user.
+eg : input("Enter a number")
+This will take input from the user which can be inserted from the keyboard.
+
+4.Converting user input into different data types (e.g., int, float, etc.)
+--> By default input function takes string values.For defining it in int,float,char we have to write them before input.
+for eg : int(input("Enter a number"))
+This will take input in int only no float and string values are allowed.
+for restricting data of one datatype we use such function.
+
+5. Opening files in different modes ('r', 'w', 'a', 'r+', 'w+').
+--> In python we open file using open() function we can open a file.For Opening of file we have different modes.There are 3 modes : read,write,append
+read is used for reading the file data.
+write is used for over-writing the data in it.
+append is used to add data at the end of file without removing old ones.
+r+ is used for both read and write in the file.File should be there.
+w+ is used for both write and read in the file.
+
+6. Using the open() function to create and access files.
+--> Open function is used to open the python file.Via this file can be read,write or append.
+eg : file = open("example.txt","w")
+     file.write("HELLO!")
+     file.close()
+
+7. Closing files using close().
+--> close function is used to close the python file.
+eg : file = open("example.txt","r")
+     file.close()
+
+8. Reading from a file using read(), readline(), readlines().
+--> For reading files in python there are 3 methods : read,readline,readlines.
+(1) read : ye function puri file ko ek string ke way me return krta hai.
+(2) readline : ye function ek line ko read krta hai.
+(3) readlines : ye function puri file ko list of line me convert krta hai.
+
+
+9. Writing to a file using write() and writelines()
+--> write() : This function is used to write string in a file.
+    writelines() : list of strings ko file me likhna.
+
+10.Introduction to exceptions and how to handle them using try, except, and finally.
+--> Exceptions are used to handle any error using exception handling.
+There are 3 blocks : try,except,finally
+(1) try : ye block jab use hota h jab error aane k chances hote hai.
+(2) except : ye block koi specific error ko handle karne k liye use hota h.
+(3) finally : ye block always execute hoga even though there is error or not.
+for eg : 
+try:
+    x = 10 / 0  
+except ZeroDivisionError:
+    print("Cannot divide by zero!!")
+finally:
+    print("Execution completed succesfully!")
+
+11.Understanding multiple exceptions and custom exceptions.
+-->
+
+12.Understanding the concepts of classes, objects, attributes, and methods in Python.
+-->class : A class is a blueprint of objects.It stores data for objects.
+objects : An object is an instance of a class.
+eg : The classroom of students is class and students are objects.
+attributes : Attributes are variables that hold data which belongs to class and its objects.
+methods : Methods are functions defined within class and connected with any object.
+
+13.Difference between local and global variables.
+--> Local variables : Variables are declared inside the function or block of code.
+It is accessible only within the function or block where they are defined.
+Global variables : Variables are declared outside the functions or any place of code.
+It is accessible from any part of program including inside functions.
+
+14.Single, Multilevel, Multiple, Hierarchical, and Hybrid inheritance in Python.
+-->Inheritance means to inherit derived properties from parent class to child class or base class to sub class.
+There are 5 types of inheritance :
+(1)Single inheritance : One child class inherits from one parent class.
+eg : parentclass
+          |
+     childclass
+(2)Multilevel inheritance : one class inherits from another class and itself inherits from another class.
+eg : Grandparents
+        |
+     parents
+        |
+     child
+(3)Multiple inheritance : one class inherits from more than one parent class.
+eg : parentclass1       parentclass2
+               \            /
+                \          /
+                childclass
+(4)Hierarchical inheritance : multiple classes inherits from a single parent class.
+eg:                  ParentClass
+                     /    |    \
+         childclass1 childclass2 childclass3
+(5)Hybrid inheritance : It is a combination of two or more types of inheritance.
+eg:                ParentClass
+                   /         \
+            childclass1      childclass2
+                \               /
+                 Subchildclass
+
+15.Using the super() function to access properties of the parent class.
+--> super() ek inbuilt function h jo parent class ke methods or properties ko access krne me help krta h indirectly.
+It is also known as Proxy object in python.It is especially useful in inheritance and multiple inheritance.
+
+
+16.Method overloading: defining multiple methods with the same name but different
+parameters.
+--> Method overloading is not supported in python.
+It is also known as static binding.
+It is a method with same name same class but with different parameters.
+
+17.Method overriding: redefining a parent class method in the child class.
+--> Method overriding is a method with same name same arguments but with different class.
+It is supported in python.
+It is also known as dynamic binding.
