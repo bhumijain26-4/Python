@@ -1,0 +1,1 @@
+Python was developed by Guido Van Rossum.It is high level,interpreted language.It is also high in demand due to it's easy syntax.
